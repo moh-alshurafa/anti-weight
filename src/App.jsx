@@ -153,7 +153,7 @@ export default function App() {
             className="hero-image-wrapper"
             initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}
           >
-            <img src="/belly-measurement.png" alt="Person measuring waist with tape" />
+            <img src={`${import.meta.env.BASE_URL}belly-measurement.png`} alt="Person measuring waist with tape" />
           </motion.div>
         </div>
       </section>
@@ -202,7 +202,7 @@ export default function App() {
             initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }}
             className="hero-image-wrapper"
           >
-            <img src="/attractive-smiling-sportsman-warming-up-his-body-outdoor-training.png" alt="Smiling man warming up outdoors" />
+            <img src={`${import.meta.env.BASE_URL}attractive-smiling-sportsman-warming-up-his-body-outdoor-training.png`} alt="Smiling man warming up outdoors" />
           </motion.div>
         </div>
       </section>
